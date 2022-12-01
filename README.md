@@ -16,7 +16,7 @@ It is proposed to study photoisomerization retinal via both ab initio and non-ad
 ![flowchart](https://user-images.githubusercontent.com/57571405/143783537-a035af25-9446-4543-ae67-7f59c51b4983.png)
 
 ## Protocol
-![flowchart](https://www.dropbox.com/s/g08kq8cp6kft8xt/flowchart.tif?dl=0)
+![flowchart](https://github.com/sampritanandi/CSCI653_finalproject/blob/main/flowchart.png)
 
 ## Results and discussion
 
