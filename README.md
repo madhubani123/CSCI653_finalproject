@@ -1,5 +1,5 @@
 # CSCI653_finalproject
-Non-adiabatic molecular dynamics using machine learning
+Ab initio and Non-adiabatic molecular dynamics using machine learning
 
 ## Team Members
 
@@ -7,7 +7,7 @@ Goran Giudetti, Madhubani Mukherjee, Samprita Nandi (Names in alphabetical order
 
 ## Abstract
 
-It is proposed to study photoisomerization retinal via non-adiabatic molecular dynamics calculations. Application of  machine learning based protocol will enable the determination of the reaction coordinate. Whereas most of the quantum chemical calculations assess the adiabatic potential surfaces with fixed nuclei many chemically relevant processes, such as isomerization, proceed nonadiabatically and involve a concerted motion of electrons and nuclei. Very recent experiments involving femtosecond optical pump and x-ray probe pulses enabled study of the evolution of electronic states and the motion of the nuclei during isomerization reactions of cyclohexadiene for the first time. Similar techniques will likely be applied for the study of different systems of increasing complexity. The interpretation of the results requires the development of the computational techniques. Due to the multistate and multidimensional nature of isomerization reactions computation of the relevant potential energy surfaces (PES) and  the reaction coordinate is very costly. In this work, a neural network based machine learning technique is proposed  to  identify the most important internal coordinate by rank ordering all the internal coordinates. 
+It is proposed to study photoisomerization retinal via both ab initio and non-adiabatic molecular dynamics calculations. Application of machine learning based protocol will enable the determination of the reaction coordinate. Whereas most of the quantum chemical calculations assess the adiabatic potential surfaces with fixed nuclei many chemically relevant processes, such as isomerization, proceed nonadiabatically and involve a concerted motion of electrons and nuclei. Very recent experiments involving femtosecond optical pump and x-ray probe pulses enabled study of the evolution of electronic states and the motion of the nuclei during isomerization reactions of cyclohexadiene for the first time. Similar techniques will likely be applied for the study of different systems of increasing complexity. The interpretation of the results requires the development of the computational techniques. Due to the multistate and multidimensional nature of isomerization reactions computation of the relevant potential energy surfaces (PES) and  the reaction coordinate is very costly. In this work, a protocol based on graph theory and machine learning is proposed to identify the most important internal coordinates involved in the reaction and provide a plausible reaction path. 
 
 ## System of interest
 ![retinal](https://user-images.githubusercontent.com/57571405/143783315-cb028241-f766-4aa1-b283-40980def8bad.png)
