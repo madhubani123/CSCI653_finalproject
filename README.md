@@ -35,7 +35,9 @@ We apply Singular Value Decomposition (SVD) to the correlation matrix presented 
 
 ### Graphs and Chemistry
 
+We build a graph using the data from AIMD/NAMD simulations. Each configuration at each time step is used to define nodes. Each node will have the properties of interest of the configuration as attributes, that is, internal coordinates of the molecule and the HOMO/LUMO energies and energy difference. Once all nodes are defined we proceed with constructing the edges among them. Edges can be built following specific conditions that must be met when evaluating a pair of nodes. For example we could create an edge between nodes if the absolute difference in the torsional angle of a specific dihedral is less than 3.0 degrees, but more than 0.0 to avoid edges between configurations with the same torsinal angle. We also assign a weight to the edges taking into account the difference in energy and RMSD between the connected nodes. Higher weight is expected for nodes with lower energy difference. The graph is now complete and can be used for further analysis. We extract the shortest path connecting the nodes describing the cis and trans configurations of retinal from the graph. We plot lastly the HOMO energy vs dihedral angle along the configurations forming such shortest path. The plot is in agreement with the expected potential energy surface for the isomerization reaction of retinal (figure below). 
 
 ![Graph_retinal_energy](https://user-images.githubusercontent.com/32039372/204936560-bb90012c-18da-4bb4-8b8f-4910bcef7c8a.png)
+
 
 
